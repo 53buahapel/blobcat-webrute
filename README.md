@@ -1,8 +1,15 @@
-# Login Page Bruteforce Tools
+# Login Page Fast Bruteforce Tools (blobcat)
 
 ## Description
 
-This is a simple tool to bruteforce login pages. It is written in Python and uses the requests library to send HTTP requests.
+This is a simple tool for rapidly brute-forcing login pages. It's implemented in Python and utilizes the requests library for sending HTTP requests with multithreading.
+
+## Features
+
+- Multithreading
+- Random user agent
+- Support for both `x-www-form-urlencoded` and `JSON` content type
+- Support for both `http` and `https` protocols
 
 ## Simple Usage
 
