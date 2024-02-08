@@ -1,6 +1,5 @@
 import random
 import requests
-# import datetime
 from datetime import datetime
 from argparse import ArgumentParser, Namespace
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -184,5 +183,5 @@ if __name__ == '__main__':
 
     args    = parser.parse_args()
     run     = FastLoginBruteforcer(args)
-    
+
     run.run()
